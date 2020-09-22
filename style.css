@@ -10,7 +10,7 @@
   }
 
   .contenitore{
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
 
   }
@@ -59,4 +59,56 @@ ul.menu li a{
 ul.menu li:hover{
   background-color: lightgrey;
   cursor: pointer;
+}
+
+
+.row::after{
+  clear: both;
+  content: "";
+  display: table;
+
+}
+
+
+.col{
+  float: left;
+}
+
+.col1{
+  width: 20%;
+  background-color: red;
+}
+
+
+
+
+.col2{
+  width: 50%;
+  background-color: white;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+
+.col3{
+  width: 20%;
+
+
+}
+
+.box{
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+
+.box2{
+  background-color: green;
+}
+
+
+.box3{
+  background-color: purple;
 }
