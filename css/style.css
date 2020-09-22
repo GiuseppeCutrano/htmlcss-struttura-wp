@@ -49,10 +49,17 @@ ul.menu li{
 
 }
 
+.ul2{
+  list-style-type: none;
+  margin: 10px;
+
+}
+
 ul.menu li a{
   text-decoration: none;
-  color: white;
+  color:green;
   padding: 8px;
+
 }
 
 
@@ -76,7 +83,8 @@ ul.menu li:hover{
 
 .col1{
   width: 20%;
-  background-color: red;
+  background-color: white;
+  border-radius: 5px;
 }
 
 
@@ -87,11 +95,13 @@ ul.menu li:hover{
   background-color: white;
   margin-left: 5%;
   margin-right: 5%;
+  border-radius: 5px;
 }
 
 
 .col3{
   width: 20%;
+
 
 
 }
@@ -115,28 +125,50 @@ ul.menu li:hover{
 
 
 
-
-
 ul.menu li a{
   text-decoration: none;
   color: white;
   padding: 8px;
 }
 
-.fb{
-  width: 30px;
-  height: 30px;
 
+
+
+ul.ul2 li a{
+  text-decoration: none;
+  color: green;
+  padding-top: 14px;
 }
 
-.ig{
-  width: 30px;
-  height: 30px;
+
+
+
+ul.ul2 li:hover {
+  background-color: lightgrey;
+  cursor: pointer;
 }
 
-.last-row{
-  width: 100%;
-  background-color: white;
+
+.textfooter{
+  display: block;
   text-align: center;
+  color: gray;
+}
+
+
+
+
+.box-footer{
+  
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+
+.ico-img{
+  width: 33%;
+  padding: 120px;
 
 }
